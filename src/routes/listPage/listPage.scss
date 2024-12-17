@@ -1,0 +1,14 @@
+.listPage{
+display: flex;
+.listContainer{
+    flex:3;
+
+    .wrapper{
+        padding-right: 50px;
+    }
+}
+.mapContainer{
+    flex:2;
+    background-color: #f3f5f3;
+}
+}
