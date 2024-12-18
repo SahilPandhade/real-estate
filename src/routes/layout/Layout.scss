@@ -1,6 +1,5 @@
 @import "../../responsive.scss";
 .layout{
-
     height: 100vh;
     max-width: 1366px;
     margin-left: auto;
@@ -19,7 +18,6 @@
         max-width: 640px;
     }
     .content{
-       
-        flex: 1;
+        height: calc(100vh - 100px);
     }
 }
