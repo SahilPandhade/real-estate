@@ -3,6 +3,7 @@ import Layout from './routes/layout/Layout';
 import HomePage from './routes/homePage/HomePage';
 import ListPage from './routes/listPage/ListPage';
 import SinglePage from './routes/SinglePage/SinglePage';
+import ProfilePage from './routes/ProfilePage/ProfilePage';
 function App() {
   const router  = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ function App() {
           path:'/:id',
           element:<SinglePage/>
         },
+        {
+          path:'/profile',
+          element:<ProfilePage/>
+        }
       ]
 
     }
